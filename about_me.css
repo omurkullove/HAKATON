@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  background: transparent !important;
+}
+
+body {
+  font-family: "Montserrat" !important;
+  background-image: url(./img/star-bright-shine-nebula-wallpaper-4k-ultra-hd-background-ab.jpg);
+}
+.nav-link:hover {
+  color: red !important;
+  transition: 1s;
+}
+.section__about_me {
+  display: flex;
+  justify-content: center;
+}
+.section__button {
+  border: red 3px solid;
+  background-color: transparent;
+  color: white;
+  margin-top: 10px;
+  width: 150px;
+  height: 50;
+  font-weight: 800;
+  color: yellow;
+}
+.section__span::before {
+  content: "______________________________________________________________";
+  color: yellow;
+  font-weight: 800;
+}
+.section__span::after {
+  content: "_______________________________________________________________";
+  color: yellow;
+  font-weight: 800;
+}
+
+.container__photo_1 {
+  width: 400px;
+  height: 300px;
+  /* border: 4px outset white; */
+}
+.container__icon {
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  border: 3px solid red;
+}
+.container_1 {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  justify-content: space-around;
+  /* background-color: black; */
+}
+.container__1__own__information {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 800px;
+  align-items: center;
+  align-content: space-between;
+  height: 320px;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.own__information {
+  list-style: none;
+  color: white;
+  width: 250px;
+  text-align: center;
+}
+.own__information_paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 150px;
+}
+.own__information_text {
+  text-align: center !important;
+  font-size: 20px;
+  margin-top: 20px;
+  /* background-color: black; */
+  color: bisque;
+}

@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Montserrat" !important;
+  background-image: url(./img/165624-tumannost-astronomiya-tumannost_oriona-vual_tumannost-ostatok_sverhnovoj-3840x2160.jpg);
+  height: 2250px;
+}
+.section__skills {
+  display: flex;
+  justify-content: center;
+}
+.nav-link:hover {
+  color: red !important;
+  transition: 1s;
+}
+.section__button {
+  border: red 3px solid;
+  background-color: transparent;
+  color: white;
+  margin-top: 10px;
+  width: 150px;
+  height: 50;
+  font-weight: 800;
+  color: yellow;
+}
+.section__span::before {
+  content: "______________________________________________________________";
+  color: yellow;
+  font-weight: 800;
+}
+.section__span::after {
+  content: "_______________________________________________________________";
+  color: yellow;
+  font-weight: 800;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.progress {
+  margin-top: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+  border: 2px solid wheat;
+  height: 50px !important;
+  padding-top: 1px !important;
+  align-items: center;
+}
+.content_procent {
+  font-size: 10px !important;
+}
+.progress-bar {
+  font-size: 30px !important;
+  text-align: center;
+}
+.content_title {
+  margin-top: 100px;
+  color: yellow !important;
+}
+#transferable {
+  border: 1px solid white;
+  background: transparent;
+  width: 1500px;
+  text-align: center;
+}
+#markerable {
+  border: 1px solid white;
+  background: transparent;
+  width: 1500px;
+  text-align: center;
+}
